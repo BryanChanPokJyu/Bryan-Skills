@@ -1,0 +1,176 @@
+{
+  "ticker": "IBM",
+  "company_name": "IBM",
+  "date": "2026-06-03",
+  "waiting_event": "等待 IBM 在 AI Factory Software 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "低",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 AI Factory Software 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 9.5%，毛利率 56.2%，隐含上行 -13.2%。"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": false,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": false
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 AI Factory Software，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=9.4629。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=False，当前毛利率=56.2292。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=-13.1654，forward PE=24.527925，PS=4.490407。"
+  },
+  "upside_odds": 0,
+  "downside_loss": 25,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "高",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "仅观察",
+  "reason": "λ 判断为低，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-02T23:56:58.522898+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "IBM",
+    "identity": {
+      "company_name": "International Business Machines Corporation",
+      "quote_type": "EQUITY",
+      "exchange": "NYQ",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Information Technology Services",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 329.230011,
+      "previous_close": 312.04,
+      "day_high": 332.410004,
+      "day_low": 310.109009,
+      "year_high": 327.980011,
+      "year_low": 212.339996,
+      "market_state": "POST"
+    },
+    "valuation": {
+      "market_cap": 309438441060.2881,
+      "enterprise_value": 367538438144,
+      "trailing_pe": 29.109638,
+      "forward_pe": 24.527925,
+      "price_to_sales_ttm": 4.490407,
+      "enterprise_to_revenue": 5.334,
+      "target_mean_price": 285.8857,
+      "implied_upside_pct": -13.1654
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 9.4629,
+      "gross_margin_pct": 56.2292,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": false,
+      "quarterly_revenue": [
+        15917000000.0,
+        19687000000.0,
+        16331000000.0,
+        16977000000.0,
+        14541000000.0
+      ],
+      "quarterly_gross_profit": [
+        8950000000.0,
+        11928000000.0,
+        9360000000.0,
+        9977000000.0,
+        8031000000.0
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        56.2292,
+        60.5882,
+        57.3143,
+        58.7677,
+        55.23
+      ]
+    },
+    "earnings_calendar": {
+      "Dividend Date": "2026-06-10",
+      "Ex-Dividend Date": "2026-05-08",
+      "Earnings Date": [
+        "2026-07-23"
+      ],
+      "Earnings High": 3.16,
+      "Earnings Low": 2.771,
+      "Earnings Average": 3.01807,
+      "Revenue High": 17961000000,
+      "Revenue Low": 17575000000,
+      "Revenue Average": 17852597370,
+      "earnings_timestamp": 1784750400
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-27T00:00:00-04:00",
+          "open": 250.460007,
+          "high": 257.619995,
+          "low": 250.460007,
+          "close": 255.199997,
+          "volume": 9275500.0
+        },
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 261.0,
+          "high": 268.890015,
+          "low": 257.0,
+          "close": 264.220001,
+          "volume": 12432900.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 277.299988,
+          "high": 301.0,
+          "low": 273.329987,
+          "close": 297.799988,
+          "volume": 28481000.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 322.549988,
+          "high": 327.980011,
+          "low": 308.0,
+          "close": 320.420013,
+          "volume": 32880200.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 313.75,
+          "high": 332.410004,
+          "low": 310.109009,
+          "close": 329.230011,
+          "volume": 17092918.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "_warning": "recent news unavailable: recent news failed after 2 attempts: Too Many Requests. Rate limited. Try after a while."
+      }
+    ],
+    "_warnings": []
+  }
+}

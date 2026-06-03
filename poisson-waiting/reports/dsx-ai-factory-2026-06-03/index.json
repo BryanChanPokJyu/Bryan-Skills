@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "IBM",
+    "company": "IBM",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/07-ibm-ibm.json",
+    "markdown": "markdown/07-ibm-ibm.md",
+    "warnings": []
+  }
+]
