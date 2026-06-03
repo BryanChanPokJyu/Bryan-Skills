@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "DLR",
+    "company": "Digital Realty",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/28-dlr-digital-realty.json",
+    "markdown": "markdown/28-dlr-digital-realty.md",
+    "warnings": []
+  }
+]

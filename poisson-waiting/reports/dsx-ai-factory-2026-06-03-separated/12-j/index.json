@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "J",
+    "company": "Jacobs",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/12-j-jacobs.json",
+    "markdown": "markdown/12-j-jacobs.md",
+    "warnings": []
+  }
+]

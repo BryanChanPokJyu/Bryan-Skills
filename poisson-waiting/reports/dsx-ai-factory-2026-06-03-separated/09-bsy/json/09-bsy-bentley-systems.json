@@ -1,0 +1,184 @@
+{
+  "ticker": "BSY",
+  "company_name": "Bentley Systems",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Bentley Systems 在 Design & Construction 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Design & Construction 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 14.5%，毛利率 82.6%，隐含上行 33.6%。",
+    "近期 Yahoo 新闻锚点：Jim Cramer Says “Ixnay” on Bentley Systems"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": true
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Design & Construction，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=14.4758。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=82.6079。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=33.6134，forward PE=21.507418，PS=6.640715。"
+  },
+  "upside_odds": 33.6,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:16:51.930376+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "BSY",
+    "identity": {
+      "company_name": "Bentley Systems, Incorporated",
+      "quote_type": "EQUITY",
+      "exchange": "NMS",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Software - Application",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 34.0,
+      "previous_close": 34.21,
+      "day_high": 34.419998,
+      "day_low": 33.110001,
+      "year_high": 59.25,
+      "year_low": 30.52,
+      "market_state": "PRE"
+    },
+    "valuation": {
+      "market_cap": 10329086916.0,
+      "enterprise_value": 11706076160,
+      "trailing_pe": 39.08046,
+      "forward_pe": 21.507418,
+      "price_to_sales_ttm": 6.640715,
+      "enterprise_to_revenue": 7.526,
+      "target_mean_price": 45.42857,
+      "implied_upside_pct": 33.6134
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 14.4758,
+      "gross_margin_pct": 82.6079,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        424181000.0,
+        391582000.0,
+        375549000.0,
+        364106000.0,
+        370542000.0,
+        null
+      ],
+      "quarterly_gross_profit": [
+        350407000.0,
+        320682000.0,
+        303354000.0,
+        295330000.0,
+        304883000.0,
+        null
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        82.6079,
+        81.894,
+        80.7761,
+        81.111,
+        82.2803,
+        null
+      ]
+    },
+    "earnings_calendar": {
+      "Dividend Date": "2026-06-11",
+      "Ex-Dividend Date": "2026-06-02",
+      "Earnings Date": [
+        "2026-08-05"
+      ],
+      "Earnings High": 0.35,
+      "Earnings Low": 0.29,
+      "Earnings Average": 0.31867,
+      "Revenue High": 417600000,
+      "Revenue Low": 408000000,
+      "Revenue Average": 412140920,
+      "earnings_timestamp": 1778157000
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-27T00:00:00-04:00",
+          "open": 32.5,
+          "high": 33.095001,
+          "low": 32.009998,
+          "close": 32.060001,
+          "volume": 2198000.0
+        },
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 32.049999,
+          "high": 32.549999,
+          "low": 31.745001,
+          "close": 32.200001,
+          "volume": 2452200.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 32.139999,
+          "high": 32.740002,
+          "low": 31.65,
+          "close": 32.639999,
+          "volume": 3022200.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 33.783001,
+          "high": 35.34,
+          "low": 33.130001,
+          "close": 35.240002,
+          "volume": 3239500.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 34.139999,
+          "high": 34.419998,
+          "low": 33.110001,
+          "close": 34.0,
+          "volume": 2645600.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "Jim Cramer Says “Ixnay” on Bentley Systems",
+        "publisher": "Insider Monkey",
+        "published_at": "2026-05-30T15:08:42Z",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-ixnay-bentley-150842460.html",
+        "summary": "Bentley Systems, Incorporated (NASDAQ:BSY) was among the stocks Jim Cramer discussed in this changing market. A caller inquired after Cramer’s thoughts on the stock, and here’s what he had to say: Oh no, that’s software, the kind of software that’s being disrupted by the artificial intelligence world. We have to say ixnay on the Bentley. […]"
+      }
+    ],
+    "_warnings": []
+  }
+}

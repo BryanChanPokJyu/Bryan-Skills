@@ -1,0 +1,13 @@
+[
+  {
+    "ticker": "GEV",
+    "company": "GE Vernova",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/21-gev-ge-vernova.json",
+    "markdown": "markdown/21-gev-ge-vernova.md",
+    "warnings": [
+      "info failed after 2 attempts: 'NoneType' object is not iterable"
+    ]
+  }
+]

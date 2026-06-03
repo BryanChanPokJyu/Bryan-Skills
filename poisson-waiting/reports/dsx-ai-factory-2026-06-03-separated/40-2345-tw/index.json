@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "2345.TW",
+    "company": "Accton",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/40-2345-tw-accton.json",
+    "markdown": "markdown/40-2345-tw-accton.md",
+    "warnings": []
+  }
+]

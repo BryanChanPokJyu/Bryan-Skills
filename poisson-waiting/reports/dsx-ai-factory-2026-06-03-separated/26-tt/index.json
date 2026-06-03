@@ -1,0 +1,14 @@
+[
+  {
+    "ticker": "TT",
+    "company": "Trane Technologies",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/26-tt-trane-technologies.json",
+    "markdown": "markdown/26-tt-trane-technologies.md",
+    "warnings": [
+      "fast_info failed after 2 attempts: Too Many Requests. Rate limited. Try after a while.",
+      "info failed after 2 attempts: 'NoneType' object is not iterable"
+    ]
+  }
+]

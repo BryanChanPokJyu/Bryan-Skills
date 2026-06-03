@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "BSY",
+    "company": "Bentley Systems",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/09-bsy-bentley-systems.json",
+    "markdown": "markdown/09-bsy-bentley-systems.md",
+    "warnings": []
+  }
+]

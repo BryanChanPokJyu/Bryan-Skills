@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "PCOR",
+    "company": "Procore",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/13-pcor-procore.json",
+    "markdown": "markdown/13-pcor-procore.md",
+    "warnings": []
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "ticker": "9449.T",
+    "company": "GMO Internet Group",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/02-9449-t-gmo-internet-group.json",
+    "markdown": "markdown/02-9449-t-gmo-internet-group.md",
+    "warnings": [
+      "fast_info failed after 2 attempts: Too Many Requests. Rate limited. Try after a while.",
+      "info failed after 2 attempts: 'NoneType' object is not iterable"
+    ]
+  }
+]

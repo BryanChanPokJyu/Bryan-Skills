@@ -1,0 +1,13 @@
+[
+  {
+    "ticker": "ENGI.PA",
+    "company": "ENGIE",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/20-engi-pa-engie.json",
+    "markdown": "markdown/20-engi-pa-engie.md",
+    "warnings": [
+      "info failed after 2 attempts: 'NoneType' object is not iterable"
+    ]
+  }
+]

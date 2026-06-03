@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "HPE",
+    "company": "HPE",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/37-hpe-hpe.json",
+    "markdown": "markdown/37-hpe-hpe.md",
+    "warnings": []
+  }
+]

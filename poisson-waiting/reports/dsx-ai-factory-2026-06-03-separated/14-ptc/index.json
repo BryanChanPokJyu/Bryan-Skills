@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "PTC",
+    "company": "PTC",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/14-ptc-ptc.json",
+    "markdown": "markdown/14-ptc-ptc.md",
+    "warnings": []
+  }
+]

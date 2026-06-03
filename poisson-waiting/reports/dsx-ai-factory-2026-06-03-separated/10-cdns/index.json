@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "CDNS",
+    "company": "Cadence",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/10-cdns-cadence.json",
+    "markdown": "markdown/10-cdns-cadence.md",
+    "warnings": []
+  }
+]

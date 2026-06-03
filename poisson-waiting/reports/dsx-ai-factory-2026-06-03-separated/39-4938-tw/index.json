@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "4938.TW",
+    "company": "Pegatron",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/39-4938-tw-pegatron.json",
+    "markdown": "markdown/39-4938-tw-pegatron.md",
+    "warnings": []
+  }
+]

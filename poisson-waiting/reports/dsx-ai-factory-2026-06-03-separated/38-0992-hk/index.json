@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "0992.HK",
+    "company": "Lenovo",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/38-0992-hk-lenovo.json",
+    "markdown": "markdown/38-0992-hk-lenovo.md",
+    "warnings": []
+  }
+]

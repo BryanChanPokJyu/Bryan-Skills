@@ -1,0 +1,184 @@
+{
+  "ticker": "VRT",
+  "company_name": "Vertiv",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Vertiv 在 Energy & Cooling 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Energy & Cooling 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 30.1%，毛利率 37.7%，隐含上行 12.6%。",
+    "近期 Yahoo 新闻锚点：Nvidia Is Giving These 6 Stocks a Boost. Not One Is a Chip Maker."
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": false
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Energy & Cooling，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=30.1326。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=37.7316。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=12.6491，forward PE=37.85198，PS=11.848733。"
+  },
+  "upside_odds": 12.6,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:26:29.008816+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "VRT",
+    "identity": {
+      "company_name": "Vertiv Holdings Co",
+      "quote_type": "EQUITY",
+      "exchange": "NYQ",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Electrical Equipment & Parts",
+      "sector": "Industrials"
+    },
+    "price": {
+      "current": 334.48999,
+      "previous_close": 335.92,
+      "day_high": 345.179993,
+      "day_low": 331.230011,
+      "year_high": 379.934998,
+      "year_low": 107.379997,
+      "market_state": "PRE"
+    },
+    "valuation": {
+      "market_cap": 128480554112.77734,
+      "enterprise_value": 129244954624,
+      "trailing_pe": 84.04271,
+      "forward_pe": 37.85198,
+      "price_to_sales_ttm": 11.848733,
+      "enterprise_to_revenue": 11.919,
+      "target_mean_price": 376.8,
+      "implied_upside_pct": 12.6491
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 30.1326,
+      "gross_margin_pct": 37.7316,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        2649500000.0,
+        2880000000.0,
+        2675800000.0,
+        2638100000.0,
+        2036000000.0,
+        null
+      ],
+      "quarterly_gross_profit": [
+        999700000.0,
+        1121400000.0,
+        1010700000.0,
+        896600000.0,
+        686500000.0,
+        null
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        37.7316,
+        38.9375,
+        37.7719,
+        33.9866,
+        33.7181,
+        null
+      ]
+    },
+    "earnings_calendar": {
+      "Dividend Date": "2026-03-26",
+      "Ex-Dividend Date": "2026-03-17",
+      "Earnings Date": [
+        "2026-07-29"
+      ],
+      "Earnings High": 1.59,
+      "Earnings Low": 1.38,
+      "Earnings Average": 1.42436,
+      "Revenue High": 3532000000,
+      "Revenue Low": 3328000000,
+      "Revenue Average": 3376137200,
+      "earnings_timestamp": 1776861000
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-27T00:00:00-04:00",
+          "open": 326.01001,
+          "high": 326.162994,
+          "low": 310.100006,
+          "close": 319.779999,
+          "volume": 5293000.0
+        },
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 316.399994,
+          "high": 320.674988,
+          "low": 307.299988,
+          "close": 314.179993,
+          "volume": 5384100.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 315.200012,
+          "high": 319.579987,
+          "low": 308.0,
+          "close": 315.709991,
+          "volume": 7218800.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 317.98999,
+          "high": 328.579987,
+          "low": 313.130005,
+          "close": 323.390015,
+          "volume": 6162100.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 335.149994,
+          "high": 345.179993,
+          "low": 331.230011,
+          "close": 334.48999,
+          "volume": 5052500.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "Nvidia Is Giving These 6 Stocks a Boost. Not One Is a Chip Maker.",
+        "publisher": "Barrons.com",
+        "published_at": "2026-06-02T20:27:00Z",
+        "url": "https://www.barrons.com/articles/nvidia-marvell-trane-nvent-siemens-f12b806a?siteid=yhoof2&yptr=yahoo",
+        "summary": "Nvidia  is helping a lot of stocks this week besides  Marvell  It’s yet another example of how AI runs the market and creates opportunities for companies that aren’t in tech.  Over the weekend, at a trade show in Taiwan, Nvidia got Wall Street primed by introducing several products, including its new, more powerful Vera CPU, which needs liquid cooling.  At the conference, Nvidia also announced a partnership with nVent and  Siemens  The trio released a blueprint for 100-megawatt AI data centers that provides Siemens’ electrical frameworks and nVent’s plumbing."
+      }
+    ],
+    "_warnings": []
+  }
+}

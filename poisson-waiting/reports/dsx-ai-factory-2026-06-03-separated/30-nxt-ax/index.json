@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "NXT.AX",
+    "company": "NEXTDC",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/30-nxt-ax-nextdc.json",
+    "markdown": "markdown/30-nxt-ax-nextdc.md",
+    "warnings": []
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "ticker": "PCOR",
+  "company_name": "Procore",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Procore 在 Design & Construction 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Design & Construction 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 15.7%，毛利率 80.1%，隐含上行 31.5%。",
+    "近期 Yahoo 新闻锚点：Top 3 High Growth Tech Stocks in the US Market"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": true
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Design & Construction，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=15.6619。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=80.1012。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=31.529，forward PE=24.855795，PS=5.799406。"
+  },
+  "upside_odds": 31.5,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:18:08.679099+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "PCOR",
+    "identity": {
+      "company_name": "Procore Technologies, Inc.",
+      "quote_type": "EQUITY",
+      "exchange": "NYQ",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Software - Application",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 52.700001,
+      "previous_close": 52.565,
+      "day_high": 54.220001,
+      "day_low": 51.700001,
+      "year_high": 82.315002,
+      "year_low": 45.02,
+      "market_state": "PRE"
+    },
+    "valuation": {
+      "market_cap": 7951914498.320099,
+      "enterprise_value": 7453385216,
+      "trailing_pe": null,
+      "forward_pe": 24.855795,
+      "price_to_sales_ttm": 5.799406,
+      "enterprise_to_revenue": 5.436,
+      "target_mean_price": 69.31579,
+      "implied_upside_pct": 31.529
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 15.6619,
+      "gross_margin_pct": 80.1012,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        359283000.0,
+        349107000.0,
+        338851000.0,
+        323919000.0,
+        310632000.0
+      ],
+      "quarterly_gross_profit": [
+        287790000.0,
+        279695000.0,
+        270089000.0,
+        256187000.0,
+        245706000.0
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        80.1012,
+        80.1173,
+        79.7073,
+        79.0898,
+        79.0987
+      ]
+    },
+    "earnings_calendar": {
+      "Earnings Date": [
+        "2026-08-06"
+      ],
+      "Earnings High": 0.5,
+      "Earnings Low": 0.343,
+      "Earnings Average": 0.41361,
+      "Revenue High": 369163280,
+      "Revenue Low": 364700000,
+      "Revenue Average": 365863320,
+      "earnings_timestamp": 1777984200
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-27T00:00:00-04:00",
+          "open": 47.16,
+          "high": 48.84,
+          "low": 46.570999,
+          "close": 46.880001,
+          "volume": 1569800.0
+        },
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 47.32,
+          "high": 48.470001,
+          "low": 46.259998,
+          "close": 47.540001,
+          "volume": 2323400.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 47.619999,
+          "high": 50.110001,
+          "low": 47.369999,
+          "close": 49.490002,
+          "volume": 2228200.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 51.27,
+          "high": 55.25,
+          "low": 50.0,
+          "close": 55.23,
+          "volume": 3920600.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 53.639999,
+          "high": 54.220001,
+          "low": 51.700001,
+          "close": 52.700001,
+          "volume": 2786300.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "Top 3 High Growth Tech Stocks in the US Market",
+        "publisher": "Simply Wall St.",
+        "published_at": "2026-06-01T17:38:46Z",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/top-3-high-growth-tech-173846277.html",
+        "summary": "The United States market has shown robust performance recently, with a 1.6% increase over the last week and a substantial 28% rise over the past year, while earnings are anticipated to grow by 17% annually in the coming years. In this favorable environment, identifying high growth tech stocks involves looking for companies that demonstrate strong innovation potential and scalability to capitalize on these positive market conditions."
+      }
+    ],
+    "_warnings": []
+  }
+}

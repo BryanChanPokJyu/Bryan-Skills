@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "ETN",
+    "company": "Eaton",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/19-etn-eaton.json",
+    "markdown": "markdown/19-etn-eaton.md",
+    "warnings": []
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "ticker": "2345.TW",
+  "company_name": "Accton",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Accton 在 Compute Systems 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Compute Systems 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 155.4%，毛利率 17.9%，隐含上行 12.3%。",
+    "近期 Yahoo 新闻锚点：High Growth Tech Stocks In Asia To Watch May 2026"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": false
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Compute Systems，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=155.448。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=17.8972。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=12.2631，forward PE=26.051802，PS=5.240589。"
+  },
+  "upside_odds": 12.3,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:34:40.946270+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "2345.TW",
+    "identity": {
+      "company_name": "Accton Technology Corporation",
+      "quote_type": "EQUITY",
+      "exchange": "TAI",
+      "currency": "TWD",
+      "timezone": "Asia/Taipei",
+      "industry": "Communication Equipment",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 2585.0,
+      "previous_close": 2405.0,
+      "day_high": 2645.0,
+      "day_low": 2470.0,
+      "year_high": 2695.0,
+      "year_low": 699.0,
+      "market_state": "POSTPOST"
+    },
+    "valuation": {
+      "market_cap": 1444777180000.0,
+      "enterprise_value": 1310518018048,
+      "trailing_pe": 55.235043,
+      "forward_pe": 26.051802,
+      "price_to_sales_ttm": 5.240589,
+      "enterprise_to_revenue": 4.754,
+      "target_mean_price": 2902.0,
+      "implied_upside_pct": 12.2631
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 155.448,
+      "gross_margin_pct": 17.8972,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        72017781000.0,
+        60604798000.0,
+        42750561000.0,
+        38971903000.0,
+        28192739000.0
+      ],
+      "quarterly_gross_profit": [
+        12889162000.0,
+        10863942000.0,
+        8647449000.0,
+        8064689000.0,
+        5608730000.0
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        17.8972,
+        17.9259,
+        20.2277,
+        20.6936,
+        19.8942
+      ]
+    },
+    "earnings_calendar": {
+      "Ex-Dividend Date": "2025-07-30",
+      "Earnings Date": [
+        "2026-08-06"
+      ],
+      "Earnings High": 18.82983,
+      "Earnings Low": 16.31244,
+      "Earnings Average": 17.30645,
+      "Revenue High": 87902841840,
+      "Revenue Low": 82691094380,
+      "Revenue Average": 84513645410,
+      "earnings_timestamp": 1778131800
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-28T00:00:00+08:00",
+          "open": 2575.0,
+          "high": 2580.0,
+          "low": 2395.0,
+          "close": 2435.0,
+          "volume": 4511170.0
+        },
+        {
+          "date": "2026-05-29T00:00:00+08:00",
+          "open": 2505.0,
+          "high": 2530.0,
+          "low": 2390.0,
+          "close": 2430.0,
+          "volume": 6138040.0
+        },
+        {
+          "date": "2026-06-01T00:00:00+08:00",
+          "open": 2460.0,
+          "high": 2540.0,
+          "low": 2430.0,
+          "close": 2510.0,
+          "volume": 2374400.0
+        },
+        {
+          "date": "2026-06-02T00:00:00+08:00",
+          "open": 2505.0,
+          "high": 2520.0,
+          "low": 2390.0,
+          "close": 2425.0,
+          "volume": 3599143.0
+        },
+        {
+          "date": "2026-06-03T00:00:00+08:00",
+          "open": 2470.0,
+          "high": 2645.0,
+          "low": 2470.0,
+          "close": 2585.0,
+          "volume": 4084506.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "High Growth Tech Stocks In Asia To Watch May 2026",
+        "publisher": "Simply Wall St.",
+        "published_at": "2026-05-31T22:35:34Z",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/high-growth-tech-stocks-asia-223534376.html",
+        "summary": "Amidst a backdrop of global optimism fueled by potential peace agreements and declining oil prices, Asian markets are experiencing mixed movements, with technology stocks showing notable resilience and growth. As investors navigate these dynamic conditions, identifying high-growth tech stocks in Asia involves assessing factors such as innovation in AI technologies and the ability to capitalize on regional economic trends."
+      }
+    ],
+    "_warnings": []
+  }
+}

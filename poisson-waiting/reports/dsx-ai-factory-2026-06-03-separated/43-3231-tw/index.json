@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "3231.TW",
+    "company": "Wistron",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/43-3231-tw-wistron.json",
+    "markdown": "markdown/43-3231-tw-wistron.md",
+    "warnings": []
+  }
+]

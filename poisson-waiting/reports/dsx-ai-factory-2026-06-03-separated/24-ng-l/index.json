@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "NG.L",
+    "company": "National Grid",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/24-ng-l-national-grid.json",
+    "markdown": "markdown/24-ng-l-national-grid.md",
+    "warnings": []
+  }
+]

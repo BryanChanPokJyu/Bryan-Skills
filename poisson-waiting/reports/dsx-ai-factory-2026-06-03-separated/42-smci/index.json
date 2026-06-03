@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "SMCI",
+    "company": "Supermicro",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/42-smci-supermicro.json",
+    "markdown": "markdown/42-smci-supermicro.md",
+    "warnings": []
+  }
+]

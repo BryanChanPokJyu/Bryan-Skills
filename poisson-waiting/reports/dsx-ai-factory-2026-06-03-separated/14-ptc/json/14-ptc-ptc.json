@@ -1,0 +1,177 @@
+{
+  "ticker": "PTC",
+  "company_name": "PTC",
+  "date": "2026-06-03",
+  "waiting_event": "等待 PTC 在 Design & Construction 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Design & Construction 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 21.7%，毛利率 85.3%，隐含上行 28.4%。"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": true
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Design & Construction，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=21.6757。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=85.3264。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=28.3805，forward PE=16.465809，PS=5.484277。"
+  },
+  "upside_odds": 28.4,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:18:27.866052+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "PTC",
+    "identity": {
+      "company_name": "PTC Inc.",
+      "quote_type": "EQUITY",
+      "exchange": "NMS",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Software - Application",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 142.339996,
+      "previous_close": 143.99,
+      "day_high": 145.25,
+      "day_low": 139.630005,
+      "year_high": 219.690002,
+      "year_low": 130.889999,
+      "market_state": "PRE"
+    },
+    "valuation": {
+      "market_cap": 16441093867.94516,
+      "enterprise_value": 17383034880,
+      "trailing_pe": 13.67339,
+      "forward_pe": 16.465809,
+      "price_to_sales_ttm": 5.484277,
+      "enterprise_to_revenue": 5.798,
+      "target_mean_price": 182.73685,
+      "implied_upside_pct": 28.3805
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 21.6757,
+      "gross_margin_pct": 85.3264,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        774303000.0,
+        685825000.0,
+        893795000.0,
+        643937000.0,
+        636366000.0,
+        null
+      ],
+      "quarterly_gross_profit": [
+        660685000.0,
+        568079000.0,
+        776896000.0,
+        533912000.0,
+        530104000.0,
+        null
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        85.3264,
+        82.8315,
+        86.9211,
+        82.9137,
+        83.3017,
+        null
+      ]
+    },
+    "earnings_calendar": {
+      "Earnings Date": [
+        "2026-08-06"
+      ],
+      "Earnings High": 1.77583,
+      "Earnings Low": 1.38,
+      "Earnings Average": 1.57326,
+      "Revenue High": 640000000,
+      "Revenue Low": 560500000,
+      "Revenue Average": 612785030,
+      "earnings_timestamp": 1778097600
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-27T00:00:00-04:00",
+          "open": 144.220001,
+          "high": 146.669998,
+          "low": 142.130005,
+          "close": 142.259995,
+          "volume": 1268900.0
+        },
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 141.770004,
+          "high": 142.699997,
+          "low": 137.910004,
+          "close": 138.789993,
+          "volume": 1931400.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 138.580002,
+          "high": 139.699997,
+          "low": 133.399994,
+          "close": 138.729996,
+          "volume": 3071300.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 141.0,
+          "high": 146.949997,
+          "low": 140.0,
+          "close": 145.080002,
+          "volume": 2315000.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 141.919998,
+          "high": 145.25,
+          "low": 139.630005,
+          "close": 142.339996,
+          "volume": 1374100.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "_warning": "recent news unavailable: recent news failed after 2 attempts: Too Many Requests. Rate limited. Try after a while."
+      }
+    ],
+    "_warnings": []
+  }
+}

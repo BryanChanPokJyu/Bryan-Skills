@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "2317.TW",
+    "company": "Foxconn / Hon Hai",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/35-2317-tw-foxconn-hon-hai.json",
+    "markdown": "markdown/35-2317-tw-foxconn-hon-hai.md",
+    "warnings": []
+  }
+]

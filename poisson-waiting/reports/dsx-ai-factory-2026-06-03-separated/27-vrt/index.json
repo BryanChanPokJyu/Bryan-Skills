@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "VRT",
+    "company": "Vertiv",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/27-vrt-vertiv.json",
+    "markdown": "markdown/27-vrt-vertiv.md",
+    "warnings": []
+  }
+]

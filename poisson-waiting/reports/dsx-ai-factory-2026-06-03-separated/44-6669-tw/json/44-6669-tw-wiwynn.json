@@ -1,0 +1,183 @@
+{
+  "ticker": "6669.TW",
+  "company_name": "Wiwynn",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Wiwynn 在 Compute Systems 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Compute Systems 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 152.9%，毛利率 7.2%，隐含上行 21.1%。",
+    "近期 Yahoo 新闻锚点：Key Themes to Watch at Asia’s Biggest AI Tech Show"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": true
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Compute Systems，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=152.9464。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=7.2252。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=21.0536，forward PE=12.262904，PS=0.985038。"
+  },
+  "upside_odds": 21.1,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:36:16.548898+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "6669.TW",
+    "identity": {
+      "company_name": "Wiwynn Corporation",
+      "quote_type": "EQUITY",
+      "exchange": "TAI",
+      "currency": "TWD",
+      "timezone": "Asia/Taipei",
+      "industry": "Computer Hardware",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 5600.0,
+      "previous_close": 5475.0,
+      "day_high": 5675.0,
+      "day_low": 5420.0,
+      "year_high": 5880.0,
+      "year_low": 2360.0,
+      "market_state": "POSTPOST"
+    },
+    "valuation": {
+      "market_cap": 1040708429600.0,
+      "enterprise_value": 1053479665664,
+      "trailing_pe": 21.0891,
+      "forward_pe": 12.262904,
+      "price_to_sales_ttm": 0.985038,
+      "enterprise_to_revenue": 0.997,
+      "target_mean_price": 6779.0,
+      "implied_upside_pct": 21.0536
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 152.9464,
+      "gross_margin_pct": 7.2252,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        292440481000.0,
+        266824045000.0,
+        220743500000.0,
+        170655284000.0,
+        115613620000.0,
+        null
+      ],
+      "quarterly_gross_profit": [
+        21129466000.0,
+        23531641000.0,
+        18943441000.0,
+        14849475000.0,
+        10873820000.0,
+        null
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        7.2252,
+        8.8192,
+        8.5817,
+        8.7014,
+        9.4053,
+        null
+      ]
+    },
+    "earnings_calendar": {
+      "Ex-Dividend Date": "2026-06-22",
+      "Earnings Date": [
+        "2026-08-07"
+      ],
+      "Earnings High": 86.74,
+      "Earnings Low": 68.8,
+      "Earnings Average": 76.18797,
+      "Revenue High": 302838000000,
+      "Revenue Low": 248556000000,
+      "Revenue Average": 276780397590,
+      "earnings_timestamp": 1778131800
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-28T00:00:00+08:00",
+          "open": 5100.0,
+          "high": 5260.0,
+          "low": 4900.0,
+          "close": 4950.0,
+          "volume": 1846526.0
+        },
+        {
+          "date": "2026-05-29T00:00:00+08:00",
+          "open": 5130.0,
+          "high": 5445.0,
+          "low": 5075.0,
+          "close": 5445.0,
+          "volume": 2901794.0
+        },
+        {
+          "date": "2026-06-01T00:00:00+08:00",
+          "open": 5715.0,
+          "high": 5795.0,
+          "low": 5460.0,
+          "close": 5515.0,
+          "volume": 2078952.0
+        },
+        {
+          "date": "2026-06-02T00:00:00+08:00",
+          "open": 5580.0,
+          "high": 5675.0,
+          "low": 5315.0,
+          "close": 5475.0,
+          "volume": 1736113.0
+        },
+        {
+          "date": "2026-06-03T00:00:00+08:00",
+          "open": 5550.0,
+          "high": 5675.0,
+          "low": 5420.0,
+          "close": 5600.0,
+          "volume": 1714544.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "Key Themes to Watch at Asia’s Biggest AI Tech Show",
+        "publisher": "Bloomberg",
+        "published_at": "2026-05-29T08:49:11Z",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/key-themes-watch-asia-biggest-084911131.html",
+        "summary": "(Bloomberg) -- Nvidia Corp.’s Jensen Huang leads a parade of AI computing leaders in Taiwan for Asia’s biggest technology showcase, Computex. Over a jam-packed week, the hardware linchpins of the post-ChatGPT era will debate the most pressing issues facing their industry, from growing bottlenecks in the supply of essential components like memory chips to the rise of challengers to Nvidia at the apex of the semiconductor hierarchy.Most Read from BloombergSingapore Hands Byju's Founder His First E"
+      }
+    ],
+    "_warnings": []
+  }
+}

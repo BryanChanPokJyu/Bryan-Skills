@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-06-03",
+  "failed_count": 7,
+  "failed": [
+    {
+      "order": 15,
+      "company": "Siemens",
+      "ticker": "SIE.DE",
+      "categories": [
+        "Design & Construction"
+      ],
+      "slug": "15-sie-de",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    },
+    {
+      "order": 16,
+      "company": "ABB",
+      "ticker": "ABB",
+      "categories": [
+        "Energy & Cooling"
+      ],
+      "slug": "16-abb",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    },
+    {
+      "order": 23,
+      "company": "Mitsubishi Electric",
+      "ticker": "6503.T",
+      "categories": [
+        "Energy & Cooling"
+      ],
+      "slug": "23-6503-t",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    },
+    {
+      "order": 29,
+      "company": "Equinix",
+      "ticker": "EQIX",
+      "categories": [
+        "Infrastructure & Facilities"
+      ],
+      "slug": "29-eqix",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    },
+    {
+      "order": 31,
+      "company": "NTT",
+      "ticker": "9432.T",
+      "categories": [
+        "Infrastructure & Facilities"
+      ],
+      "slug": "31-9432-t",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    },
+    {
+      "order": 32,
+      "company": "Sify Technologies",
+      "ticker": "SIFY",
+      "categories": [
+        "Infrastructure & Facilities"
+      ],
+      "slug": "32-sify",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    },
+    {
+      "order": 33,
+      "company": "ASUS",
+      "ticker": "2357.TW",
+      "categories": [
+        "Compute Systems"
+      ],
+      "slug": "33-2357-tw",
+      "status": "failed_yahoo_finance_realtime_data_unavailable_or_rate_limited"
+    }
+  ]
+}

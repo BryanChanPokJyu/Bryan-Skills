@@ -1,0 +1,13 @@
+[
+  {
+    "ticker": "SU.PA",
+    "company": "Schneider Electric",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/08-su-pa-schneider-electric.json",
+    "markdown": "markdown/08-su-pa-schneider-electric.md",
+    "warnings": [
+      "info failed after 2 attempts: 'NoneType' object is not iterable"
+    ]
+  }
+]

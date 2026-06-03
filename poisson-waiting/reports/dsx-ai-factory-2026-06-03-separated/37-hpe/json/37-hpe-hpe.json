@@ -1,0 +1,184 @@
+{
+  "ticker": "HPE",
+  "company_name": "HPE",
+  "date": "2026-06-03",
+  "waiting_event": "等待 HPE 在 Compute Systems 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "低",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Compute Systems 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 40.0%，毛利率 33.9%，隐含上行 -44.9%。",
+    "近期 Yahoo 新闻锚点：Stock market today: Dow, S&P 500, Nasdaq mixed as AI fervor meets US-Iran uncertainty"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": false,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": false
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Compute Systems，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=40.0。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=None，当前毛利率=33.887。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=-44.8753，forward PE=13.4082，PS=1.852636。"
+  },
+  "upside_odds": 0,
+  "downside_loss": 25,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "高",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "仅观察",
+  "reason": "λ 判断为低，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:33:02.529136+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "HPE",
+    "identity": {
+      "company_name": "Hewlett Packard Enterprise Company",
+      "quote_type": "EQUITY",
+      "exchange": "NYQ",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Communication Equipment",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 54.275002,
+      "previous_close": 54.85,
+      "day_high": 55.990002,
+      "day_low": 53.5,
+      "year_high": 64.25,
+      "year_low": 17.49,
+      "market_state": "REGULAR"
+    },
+    "valuation": {
+      "market_cap": 71871148122.84921,
+      "enterprise_value": 90301448192,
+      "trailing_pe": 50.68224,
+      "forward_pe": 13.4082,
+      "price_to_sales_ttm": 1.852636,
+      "enterprise_to_revenue": 2.328,
+      "target_mean_price": 29.91895,
+      "implied_upside_pct": -44.8753
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 40.0,
+      "gross_margin_pct": 33.887,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": null,
+      "quarterly_revenue": [
+        null,
+        9301000000.0,
+        9679000000.0,
+        9136000000.0,
+        7627000000.0,
+        7854000000.0
+      ],
+      "quarterly_gross_profit": [
+        null,
+        3340000000.0,
+        3241000000.0,
+        2672000000.0,
+        2169000000.0,
+        2295000000.0
+      ],
+      "previous_quarter_revenue_yoy_pct": 18.4237,
+      "quarterly_gross_margin_pct": [
+        null,
+        35.9101,
+        33.4849,
+        29.2469,
+        28.4384,
+        29.2208
+      ]
+    },
+    "earnings_calendar": {
+      "Dividend Date": "2026-04-23",
+      "Ex-Dividend Date": "2026-06-16",
+      "Earnings Date": [
+        "2026-06-02"
+      ],
+      "Earnings High": 0.64,
+      "Earnings Low": 0.51,
+      "Earnings Average": 0.57845,
+      "Revenue High": 11518900000,
+      "Revenue Low": 10094000000,
+      "Revenue Average": 10881845430,
+      "earnings_timestamp": 1780344000
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 37.470001,
+          "high": 38.355,
+          "low": 36.575001,
+          "close": 38.209999,
+          "volume": 23279900.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 42.779999,
+          "high": 44.575001,
+          "low": 41.52,
+          "close": 43.040001,
+          "volume": 86121400.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 44.18,
+          "high": 47.970001,
+          "low": 43.400002,
+          "close": 47.0,
+          "volume": 115597800.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 63.060001,
+          "high": 64.25,
+          "low": 53.470001,
+          "close": 56.150002,
+          "volume": 152811900.0
+        },
+        {
+          "date": "2026-06-03T00:00:00-04:00",
+          "open": 63.060001,
+          "high": 55.990002,
+          "low": 53.5,
+          "close": 54.275002,
+          "volume": 4774708.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq mixed as AI fervor meets US-Iran uncertainty",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-06-02T22:48:03Z",
+        "url": "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-mixed-as-ai-fervor-meets-us-iran-uncertainty-224803578.html",
+        "summary": "US stock futures traded flat as Wall Street weighed the promise of the AI trade against fragile US-Iran negotiations."
+      }
+    ],
+    "_warnings": []
+  }
+}

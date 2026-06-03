@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "6669.TW",
+    "company": "Wiwynn",
+    "lambda_direction": "上升",
+    "action": "持有等待",
+    "json": "json/44-6669-tw-wiwynn.json",
+    "markdown": "markdown/44-6669-tw-wiwynn.md",
+    "warnings": []
+  }
+]

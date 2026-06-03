@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "6501.T",
+    "company": "Hitachi",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/22-6501-t-hitachi.json",
+    "markdown": "markdown/22-6501-t-hitachi.md",
+    "warnings": []
+  }
+]

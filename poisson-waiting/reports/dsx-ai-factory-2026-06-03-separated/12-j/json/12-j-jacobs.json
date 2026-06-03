@@ -1,0 +1,184 @@
+{
+  "ticker": "J",
+  "company_name": "Jacobs",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Jacobs 在 Design & Construction 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Design & Construction 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 27.0%，毛利率 21.5%，隐含上行 29.8%。",
+    "近期 Yahoo 新闻锚点：3 Profitable Stocks We Approach with Caution"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": true
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Design & Construction，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=26.9538。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=21.5134。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=29.7906，forward PE=14.738125，PS=1.092922。"
+  },
+  "upside_odds": 29.8,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:17:49.989130+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "J",
+    "identity": {
+      "company_name": "Jacobs Solutions Inc.",
+      "quote_type": "EQUITY",
+      "exchange": "NYQ",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "industry": "Engineering & Construction",
+      "sector": "Industrials"
+    },
+    "price": {
+      "current": 121.940002,
+      "previous_close": 122.38,
+      "day_high": 122.480003,
+      "day_low": 119.230003,
+      "year_high": 168.440002,
+      "year_low": 105.68,
+      "market_state": "PRE"
+    },
+    "valuation": {
+      "market_cap": 14398782673.543396,
+      "enterprise_value": 17576587264,
+      "trailing_pe": 35.9705,
+      "forward_pe": 14.738125,
+      "price_to_sales_ttm": 1.092922,
+      "enterprise_to_revenue": 1.334,
+      "target_mean_price": 158.26666,
+      "implied_upside_pct": 29.7906
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 26.9538,
+      "gross_margin_pct": 21.5134,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        3694881000.0,
+        3293281000.0,
+        3154644000.0,
+        3031768000.0,
+        2910415000.0,
+        null
+      ],
+      "quarterly_gross_profit": [
+        794893000.0,
+        765250000.0,
+        766913000.0,
+        758410000.0,
+        738345000.0,
+        null
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        21.5134,
+        23.2367,
+        24.3106,
+        25.0154,
+        25.3691,
+        null
+      ]
+    },
+    "earnings_calendar": {
+      "Dividend Date": "2026-06-19",
+      "Ex-Dividend Date": "2026-05-22",
+      "Earnings Date": [
+        "2026-08-05"
+      ],
+      "Earnings High": 1.9,
+      "Earnings Low": 1.73,
+      "Earnings Average": 1.83077,
+      "Revenue High": 3848000000,
+      "Revenue Low": 3271000000,
+      "Revenue Average": 3582112860,
+      "earnings_timestamp": 1778011200
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-27T00:00:00-04:00",
+          "open": 115.349998,
+          "high": 116.75,
+          "low": 115.230003,
+          "close": 115.900002,
+          "volume": 757000.0
+        },
+        {
+          "date": "2026-05-28T00:00:00-04:00",
+          "open": 115.370003,
+          "high": 119.480003,
+          "low": 115.0,
+          "close": 118.959999,
+          "volume": 1302000.0
+        },
+        {
+          "date": "2026-05-29T00:00:00-04:00",
+          "open": 117.410004,
+          "high": 122.449997,
+          "low": 117.410004,
+          "close": 119.860001,
+          "volume": 2336300.0
+        },
+        {
+          "date": "2026-06-01T00:00:00-04:00",
+          "open": 119.209999,
+          "high": 124.529999,
+          "low": 118.349998,
+          "close": 123.019997,
+          "volume": 1319000.0
+        },
+        {
+          "date": "2026-06-02T00:00:00-04:00",
+          "open": 120.989998,
+          "high": 122.480003,
+          "low": 119.230003,
+          "close": 121.940002,
+          "volume": 990400.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "title": "3 Profitable Stocks We Approach with Caution",
+        "publisher": "StockStory",
+        "published_at": "2026-06-02T11:09:23Z",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-approach-caution-110923883.html",
+        "summary": "While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies — as Jeff Bezos said, “Your margin is my opportunity”."
+      }
+    ],
+    "_warnings": []
+  }
+}

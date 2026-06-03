@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "CRWV",
+    "company": "CoreWeave",
+    "lambda_direction": "低",
+    "action": "仅观察",
+    "json": "json/05-crwv-coreweave.json",
+    "markdown": "markdown/05-crwv-coreweave.md",
+    "warnings": []
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "ticker": "2317.TW",
+  "company_name": "Foxconn / Hon Hai",
+  "date": "2026-06-03",
+  "waiting_event": "等待 Foxconn / Hon Hai 在 Compute Systems 环节的 AI 数据中心需求，继续转化为收入加速、订单/backlog 或利润率韧性。",
+  "lambda_direction": "上升",
+  "lambda_evidence": [
+    "被纳入 NVIDIA DSX AI Factory 图谱的 Compute Systems 环节，说明其业务与 AI Factory 供给链存在直接相关性。",
+    "Yahoo Finance 最新快照：收入 YoY 22.3%，毛利率 5.9%，隐含上行 1.2%。"
+  ],
+  "evidence": {
+    "customer_adoption": true,
+    "revenue_accelerating": false,
+    "margin_intact": true,
+    "backlog_growing": false,
+    "industry_tailwind": true,
+    "price_not_reflected": false
+  },
+  "evidence_notes": {
+    "customer_adoption": "DSX 图谱将其归入 Compute Systems，作为 AI Factory 产业链采用信号；仍需用客户订单或管理层指引继续交叉验证。",
+    "revenue_accelerating": "Yahoo 财务锚点 revenue_accelerating_hint=None，当前收入 YoY=22.3359。",
+    "margin_intact": "Yahoo 财务锚点 margin_intact_hint=True，当前毛利率=5.8828。",
+    "backlog_growing": "批量脚本未读取公司订单/backlog 原文，暂按未确认处理；后续应以财报、RPO、订单或产能指引验证。",
+    "industry_tailwind": "AI Factory 资本开支、数据中心电力/散热/计算系统需求构成行业顺风；该图谱本身是行业链条确认。",
+    "price_not_reflected": "Yahoo 隐含上行=1.2226，forward PE=14.394287，PS=0.504364。"
+  },
+  "upside_odds": 1.2,
+  "downside_loss": 20,
+  "falsifiers": {
+    "thesis_wrong": "AI 数据中心相关收入、订单或客户采用未能在后续财报中体现，且管理层下修相关需求预期。",
+    "state_transition_failed": "连续两个复盘周期没有新增订单、收入加速、毛利率改善或客户扩张信号。",
+    "capital_stagnation": "λ 下降且同一期间其他 AI Factory 标的出现更密集、更可验证的证据网络。"
+  },
+  "risk_costs": {
+    "carry": "中",
+    "fragility": "中",
+    "opportunity": "中",
+    "false_positive": "中"
+  },
+  "narrative_check": {
+    "no_evidence_update": false,
+    "no_falsifier": false,
+    "cost_basis_anchoring": false,
+    "waited_long_enough_fallacy": false,
+    "price_as_evidence": false
+  },
+  "action": "持有等待",
+  "reason": "λ 判断为上升，依据是 DSX 产业链位置与 Yahoo 财务/估值锚点的交叉验证；订单/backlog 仍需后续证据补强。",
+  "review_clock": "下次财报发布后，或出现大客户订单、数据中心 capex 指引、毛利率明显恶化/改善时复盘。",
+  "_data_snapshot": {
+    "source": "Yahoo Finance via yfinance",
+    "fetched_at_utc": "2026-06-03T13:32:07.423120+00:00",
+    "freshness_note": "Price is Yahoo Finance's latest available quote and may be delayed by the exchange. Fundamentals are based on Yahoo Finance's latest reported period.",
+    "ticker": "2317.TW",
+    "identity": {
+      "company_name": "Hon Hai Precision Industry Co., Ltd.",
+      "quote_type": "EQUITY",
+      "exchange": "TAI",
+      "currency": "TWD",
+      "timezone": "Asia/Taipei",
+      "industry": "Electronic Components",
+      "sector": "Technology"
+    },
+    "price": {
+      "current": 309.0,
+      "previous_close": 301.0,
+      "day_high": 314.0,
+      "day_low": 299.0,
+      "year_high": 304.5,
+      "year_low": 152.0,
+      "market_state": "POSTPOST"
+    },
+    "valuation": {
+      "market_cap": 4326593255898.0,
+      "enterprise_value": 4184453152768,
+      "trailing_pe": 23.076923,
+      "forward_pe": 14.394287,
+      "price_to_sales_ttm": 0.504364,
+      "enterprise_to_revenue": 0.488,
+      "target_mean_price": 312.77777,
+      "implied_upside_pct": 1.2226
+    },
+    "financial_anchors": {
+      "revenue_yoy_pct": 22.3359,
+      "gross_margin_pct": 5.8828,
+      "revenue_accelerating_hint": null,
+      "margin_intact_hint": true,
+      "quarterly_revenue": [
+        2606372027000.0,
+        2058949127000.0,
+        1793468046000.0,
+        1644315563000.0,
+        2130503832000.0,
+        null
+      ],
+      "quarterly_gross_profit": [
+        153326971000.0,
+        130756642000.0,
+        113528996000.0,
+        100548427000.0,
+        131043568000.0,
+        null
+      ],
+      "previous_quarter_revenue_yoy_pct": null,
+      "quarterly_gross_margin_pct": [
+        5.8828,
+        6.3506,
+        6.3301,
+        6.1149,
+        6.1508,
+        null
+      ]
+    },
+    "earnings_calendar": {
+      "Ex-Dividend Date": "2025-07-02",
+      "Earnings Date": [
+        "2026-08-13"
+      ],
+      "Earnings High": 4.39,
+      "Earnings Low": 3.53,
+      "Earnings Average": 4.04696,
+      "Revenue High": 2442737711510,
+      "Revenue Low": 2330456000000,
+      "Revenue Average": 2373301692730,
+      "earnings_timestamp": 1778736600
+    },
+    "recent_history": {
+      "rows": [
+        {
+          "date": "2026-05-28T00:00:00+08:00",
+          "open": 265.0,
+          "high": 269.5,
+          "low": 259.5,
+          "close": 263.0,
+          "volume": 71820253.0
+        },
+        {
+          "date": "2026-05-29T00:00:00+08:00",
+          "open": 269.0,
+          "high": 289.0,
+          "low": 268.0,
+          "close": 289.0,
+          "volume": 282852094.0
+        },
+        {
+          "date": "2026-06-01T00:00:00+08:00",
+          "open": 302.0,
+          "high": 304.5,
+          "low": 293.0,
+          "close": 293.5,
+          "volume": 194094294.0
+        },
+        {
+          "date": "2026-06-02T00:00:00+08:00",
+          "open": 297.5,
+          "high": 302.0,
+          "low": 293.0,
+          "close": 301.5,
+          "volume": 110375105.0
+        },
+        {
+          "date": "2026-06-03T00:00:00+08:00",
+          "open": 306.0,
+          "high": 314.0,
+          "low": 299.0,
+          "close": 309.0,
+          "volume": 149311852.0
+        }
+      ]
+    },
+    "recent_news": [
+      {
+        "_warning": "recent news unavailable: recent news failed after 2 attempts: Too Many Requests. Rate limited. Try after a while."
+      }
+    ],
+    "_warnings": []
+  }
+}
